@@ -36,14 +36,11 @@ console.log(array);
 //9
 
 function isTriangle(a, b, c) {
-  if (a + c > b && a + b > c && b + c > a) {
-    console.log("true");
-  } else {
-    console.log("false");
-  }
+  return a + b > c && a + c > b && b + c > a;
 }
 
-isTriangle(3, 4, 5);
+console.log(isTriangle(1, 2, 2));
+console.log(isTriangle(7, 2, 2));
 
 //2
 
