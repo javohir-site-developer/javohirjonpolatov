@@ -22,16 +22,16 @@ function firstNonConsecutive(hub) {
 firstNonConsecutive([1, 2, 3, 4]);
 
 //10
-
-function between(d, c) {
-  const javob = [];
-  for (let i = d; i <= c; i++) {
-    javob.push(i);
+function between(start, end) {
+  let array = [];
+  for (let i = start; i <= end; i++) {
+    array.push(i);
   }
-  return javob;
+  return array;
 }
-const array = between(-4, 7);
-console.log(array);
+
+console.log(between(1, 4));
+console.log(between(-2, 2));
 
 //9
 
